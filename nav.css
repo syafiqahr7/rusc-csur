@@ -1,0 +1,52 @@
+.nav {
+	display:inline;
+    z-index: 1001;
+	text-transform:uppercase;
+	font-size:12px;
+}
+
+.nav ul li {
+	display:inline;	
+}
+
+.nav ul li ul {
+	
+}
+
+.nav li:hover {
+	display:inline;	
+}
+
+.nav li img {
+	display:inline;
+}
+
+.dropdown-menu {
+	visibility:hidden;
+}
+
+.dropdown-menu li: hover {
+	visibility:visible;
+}
+
+.nonlogo {
+	padding-top:25px;
+}
+
+.nonlogo li {
+	margin-right: 40px;
+}
+
+
+<ul>
+	<li>
+		<a href="players.html">Registration</a>
+		<ul>
+			<li><a href='#'>Prices</a></li>
+		</ul>
+	</li>
+	<li><a href="parents.html">Programs</a></li>
+	<li><a href="referees.html">FAQ</a></li>
+	<li><a href="coaches.html">Referees</a></li>
+	<li><a href="coaches.html">Coaches</a></li>
+</ul>

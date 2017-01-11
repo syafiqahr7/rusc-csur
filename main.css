@@ -1,0 +1,134 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+*{
+	max-width:1500px;
+}
+.quick_links {
+	align-text:center;
+}
+
+.quick_links .container {
+	border:2px;
+	border-color:black;
+}
+
+.imgtxt {
+	display: block;
+}
+
+.imgtxt p {
+	padding-left:5px;
+}
+
+.jumbotron {
+	position: relative;
+	border: 4px transparent;
+}
+.jumbotron:after, .jumbotron:before {
+	top: 83%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.jumbotron:after {
+	border-color: rgba(136, 183, 213, 0);
+	border-top-color: transparent;
+	border-width: 30px;
+	margin-left: -30px;
+}
+
+.jumbotron:before {
+	border-color: rgba(194, 225, 245, 0);
+	border-top-color: white;
+	border-width: 36px;
+	margin-left: -36px;
+}
+
+.jumbotron {
+	background-image: url('cleats2.jpg');
+	height:400px;
+}
+
+.jumbotron #background-image {
+
+}
+
+.jumbotron .container {
+	font-family:'Merriweather Sans', sans-serif;
+	position:relative;
+	left:20px;	
+}
+
+.jumbotron h1 {
+	color: #F8F8F8;
+	-webkit-text-shadow: none;
+	text-shadow: none;
+	position:relative;
+	font-weight:bold;
+	top:20px;
+	text-transform:uppercase;
+}
+
+.jumbotron p {
+	color: #FFFFFF;
+	position:relative;
+	top:40px;
+	padding-left:10px;
+}
+
+.jumbotron a {
+	-webkit-text-shadow: none;
+	text-shadow: none;
+	color: #FFFFFF;
+	position:relative;
+	padding-left:15px;	
+}
+
+.btn-lg {
+	background-color: #006699;
+	border-color:#003366;
+}
+
+.coaches {
+	background-image: url('redcoach.jpg');
+	height:300px;
+	width:300px;
+}
+
+.players {
+	background-image: url('players.jpg');
+	height:300px;
+	width:300px;
+}
+
+.parents {
+	background-image: url('soccermom.jpg');
+	height:300px;
+	width:300px;
+}
+
+.referees {
+	background-image: url('ref.jpg');
+	height:300px;
+	width:300px;
+}
+
+.information h3 {
+	position:relative;
+	padding-left:14px;
+	padding-top:2px;
+	padding-bottom:2px;
+	left:120px;
+	top:12px;
+	color:black;
+	border: 1px solid #FFFFFF;
+	border-radius:5px;
+	background-color:#FFFFFF;
+	text-transform:uppercase;
+	font-size:18px;
+	font-weight:normal;
+}
